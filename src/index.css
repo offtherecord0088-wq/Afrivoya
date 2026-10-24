@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-savannah-50: #FAF6ED;
+  --color-savannah-100: #F4EAD3;
+  --color-savannah-200: #EAD5AB;
+  --color-savannah-300: #DFBF83;
+  --color-savannah-400: #D4A373;
+  --color-savannah-500: #C29B38;
+  --color-savannah-600: #9E7D28;
+  --color-savannah-700: #785E1E;
+  --color-savannah-800: #554215;
+  --color-savannah-900: #35290D;
+
+  --color-acacia-900: #1F1814;
+  --color-acacia-800: #332822;
+  --color-acacia-700: #4A3B32;
+  --color-acacia-600: #635044;
+  --color-acacia-500: #816A5C;
+
+  --color-terracotta-600: #9E3739;
+  --color-terracotta-500: #BC4749;
+  --color-terracotta-400: #D06365;
+
+  --color-sunset-500: #E76F51;
+  --color-sunset-600: #D25637;
+
+  --color-sand-50: #FDFCF7;
+  --color-sand-100: #FAEDCD;
+  --color-sand-200: #F4F1DE;
+  --color-sand-300: #E7E2C9;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Syne', Georgia, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-sand-50);
+  color: var(--color-acacia-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 163, 115, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 163, 115, 0.8);
+}

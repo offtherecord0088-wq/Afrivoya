@@ -1,0 +1,6 @@
+{
+  "name": "Afrivoya - Pan-African Tourism Platform",
+  "description": "Enterprise-grade Pan-African tourism platform covering all 54 African countries with AI-assisted dynamic itinerary planner, heritage and wildlife directory, SOS emergency safety suite, and subscriptions for tourists, agencies, and guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
